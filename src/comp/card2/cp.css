@@ -1,0 +1,6 @@
+.cp-cont {
+  display: flex;
+  justify-content: space-around;
+  height: 100vh;
+  overflow-x: hidden;
+}

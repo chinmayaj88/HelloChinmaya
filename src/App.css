@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@400;500;600;700&family=Inconsolata:wght@300;400&family=Merriweather+Sans&family=Roboto+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@400;500;600;700&family=Inconsolata:wght@300;400&family=Martel+Sans:wght@300;400;600&family=Merriweather+Sans&family=Roboto+Mono&display=swap");
+
 .App {
   text-align: center;
 }
@@ -36,3 +39,25 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  background: #ececec;
+}
+
+.links {
+  text-decoration: none;
+  color: black;
+}
+
+/* font-family: 'Darker Grotesque', sans-serif;
+font-family: 'Inconsolata', monospace;
+font-family: 'Martel Sans', sans-serif;
+font-family: 'Merriweather Sans', sans-serif;
+font-family: 'Roboto Mono', monospace; */
+
+/* 
+font-family: 'Darker Grotesque', sans-serif;
+font-family: 'Inconsolata', monospace;
+font-family: 'Martel Sans', sans-serif;
+font-family: 'Merriweather Sans', sans-serif;
+font-family: 'Roboto Mono', monospace; */

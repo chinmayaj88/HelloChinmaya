@@ -1,0 +1,17 @@
+.hero2-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+.hero2-btn {
+  padding: 20px;
+  border: none;
+  background-color: transparent;
+}
+
+.hero2-btn:hover {
+  background-color: #80ed99;
+  border-radius: 50%;
+}

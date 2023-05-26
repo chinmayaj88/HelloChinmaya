@@ -1,0 +1,132 @@
+.trans-cont {
+  position: relative;
+  height: 100vh;
+}
+
+.content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.trans-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+.trans-overlay .bar {
+  position: absolute;
+  width: 10.1vw;
+  background: #262523;
+  top: 0;
+  bottom: 0;
+  transform: scale(0, 1) translate3d(0, 0, 0);
+  transform-origin: 100% 100%;
+  transition: transform 1s ease-in-out;
+  /* border-left: 1px solid rgba(255, 255, 255, 0.25); */
+}
+.trans-overlay.show .bar {
+  transform: scale(1, 1) translate3d(0, 0, 0);
+  transform-origin: 0 0;
+}
+
+.ba {
+  border-left: none;
+}
+
+.ba1 {
+  /* left: 0; */
+  background: linear-gradient(to right, #8ba3b9 0%, rgba(0, 0, 0, 0.05) 100%);
+  transition-delay: 0.05s;
+}
+.ba2 {
+  /* left: 10vw; */
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.05) 0%,
+    rgba(0, 0, 0, 0.1) 100%
+  );
+  transition-delay: 0.1s;
+}
+.ba3 {
+  /* left: 20vw; */
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.1) 0%,
+    rgba(0, 0, 0, 0.15) 100%
+  );
+  transition-delay: 0.15s;
+}
+
+.ba4 {
+  /* left: 30vw; */
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.15) 0%,
+    rgba(0, 0, 0, 0.2) 100%
+  );
+  transition-delay: 0.2s;
+}
+
+.ba5 {
+  /* left: 40vw; */
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.2) 0%,
+    rgba(0, 0, 0, 0.25) 100%
+  );
+  transition-delay: 0.25s;
+}
+
+.ba6 {
+  /* left: 50vw; */
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.25) 0%,
+    rgba(0, 0, 0, 0.3) 100%
+  );
+  transition-delay: 0.3s;
+}
+.ba7 {
+  /* left: 60vw; */
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.3) 0%,
+    rgba(0, 0, 0, 0.35) 100%
+  );
+  transition-delay: 0.35s;
+}
+.ba8 {
+  /* left: 70vw; */
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.35) 0%,
+    rgba(0, 0, 0, 0.4) 100%
+  );
+  transition-delay: 0.4s;
+}
+.ba9 {
+  /* left: 80vw; */
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.4) 0%,
+    rgba(0, 0, 0, 0.45) 100%
+  );
+  transition-delay: 0.45s;
+}
+.ba10 {
+  /* left: 90vw; */
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.45) 0%,
+    rgba(0, 0, 0, 0.5) 100%
+  );
+  transition-delay: 0.5s;
+}

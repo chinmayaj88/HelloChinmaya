@@ -1,0 +1,29 @@
+.ggggc2-cont {
+  height: 80vh;
+  background-color: blue;
+  margin: 50px;
+}
+.ggggslider-item {
+  height: 80vh;
+  width: 30vw;
+  background-color: bisque;
+}
+.gggg {
+  height: 80vh;
+  width: 30vw;
+  object-fit: cover;
+}
+.ggggslider-meta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ggggmeta-item p {
+  margin: 4px;
+  font-weight: 300;
+  font-family: "Darker Grotesque", sans-serif;
+  font-family: "Inconsolata", monospace;
+  font-family: "Martel Sans", sans-serif;
+  font-family: "Merriweather Sans", sans-serif;
+  font-family: "Roboto Mono", monospace;
+}

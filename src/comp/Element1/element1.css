@@ -1,0 +1,55 @@
+.values-list {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+.values-header {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+
+.values .values-item {
+  border-bottom: 1px solid;
+  display: flex;
+}
+.values .item-nr {
+  display: block;
+  width: 16.6666666667vw;
+  font-weight: bold;
+  margin-top: 50px;
+}
+.p2 {
+  font-size: 30px;
+  line-height: 1;
+  text-transform: uppercase;
+  font-family: Basis, arial;
+}
+
+.values .values-list {
+  padding-left: 19.4444444444vw;
+  padding-right: 5.5555555556vw;
+}
+.values .values-list {
+  display: block;
+}
+
+.values .values-title strong {
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px #262523;
+  font-weight: 400;
+  position: relative;
+  font-size: 100px;
+  margin: 0px;
+  font-family: Basis, arial;
+}
+
+.values-title {
+  margin-left: 15%;
+  font-size: 100px;
+  margin: 0px;
+  font-family: Basis, arial;
+}
+.values-subtitle {
+  margin-left: 200px;
+}

@@ -1,0 +1,40 @@
+.partner-cont {
+  background-color: #262523;
+  width: 100%;
+  height: 100%;
+}
+.element1 {
+  transition: 1s;
+  line-height: 1;
+  transform: translateY(200px);
+  color: #ececec;
+  font-size: 200px;
+  font-weight: 700;
+}
+
+.transition-wrapper:hover .element1,
+.transition-wrapper.show .element1 {
+  transform: none;
+}
+
+.transition-wrapper {
+  overflow: hidden;
+}
+.team-cont {
+  background-color: #262523;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.logowall {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+}

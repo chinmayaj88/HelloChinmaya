@@ -1,0 +1,40 @@
+.elm2-sec1 {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid black;
+  padding-left: 100px;
+  padding-right: 50px;
+}
+.elm2-sec1 h1 {
+  font-family: Basis, arial;
+}
+.partners-description {
+  margin-bottom: 60px;
+  margin-left: 35px;
+  text-transform: uppercase;
+  font-family: Basis, arial;
+}
+.elm2-sec2 {
+  padding-left: 500px;
+}
+
+.partners-logo img {
+  height: 120px;
+  width: 120px;
+}
+.partners-item {
+  display: flex;
+  align-items: center;
+  border-top: 1px solid black;
+}
+
+.partners-logo {
+  margin-right: 50px;
+}
+.partners-text {
+  margin: 10px;
+  text-transform: uppercase;
+  font-family: Basis, arial;
+  font-size: 10px;
+  line-height: 15px;
+}

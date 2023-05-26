@@ -1,0 +1,32 @@
+.hero1-container {
+  /* background-color: bisque; */
+  padding-top: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero1-sec1 {
+  padding-left: 40px;
+}
+.hero1-sec2 {
+  padding-right: 100px;
+}
+.hero1-text1,
+.hero1-text2,
+.hero1-text3,
+.hero1-text4,
+.hero1-text5 {
+  font-size: 140px;
+  margin: 0px;
+  font-weight: 700;
+  font-family: "Darker Grotesque", sans-serif;
+  font-family: "Inconsolata", monospace;
+  font-family: "Martel Sans", sans-serif;
+  font-family: "Merriweather Sans", sans-serif;
+  font-family: "Roboto Mono", monospace;
+  color: #262523;
+  white-space: nowrap;
+  line-height: 1;
+  vertical-align: middle;
+}

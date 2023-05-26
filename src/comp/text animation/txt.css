@@ -1,0 +1,13 @@
+.body {
+  height: 800px;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+#expandable {
+  font-size: 3.5vw;
+  font-weight: 500;
+  transform-origin: center top;
+  color: #262523;
+  overflow-x: hidden;
+}

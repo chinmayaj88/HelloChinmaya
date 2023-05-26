@@ -1,0 +1,53 @@
+.cubee-cont {
+  display: flex;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hide {
+  display: none;
+}
+
+.cubee-h1 {
+  font-size: 200px;
+  font-family: "Darker Grotesque", sans-serif;
+  font-family: "Inconsolata", monospace;
+  font-family: "Martel Sans", sans-serif;
+  font-family: "Merriweather Sans", sans-serif;
+  font-family: "Roboto Mono", monospace;
+}
+.cubee {
+  height: 600px;
+  width: 600px;
+  width: 100vh;
+  transform-origin: center center;
+  text-align: center;
+}
+
+.scale-down-center {
+  -webkit-animation: scale-down-center 1s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    0.5s both;
+  animation: scale-down-center 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.5s both;
+}
+
+@-webkit-keyframes scale-down-center {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(0.1);
+    transform: scale(0.1);
+  }
+}
+@keyframes scale-down-center {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(0.1);
+    transform: scale(0.1);
+  }
+}

@@ -1,0 +1,43 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css");
+
+.hero4 {
+  height: 80vh;
+  padding-top: 160px;
+}
+
+.hello {
+  font-size: 14rem;
+  text-align: center;
+  opacity: 0;
+  margin: 0px;
+  color: #5c493d;
+}
+
+.animate__animated {
+  animation-duration: 2s;
+  animation-fill-mode: both;
+}
+
+.animate__fadeInDown {
+  animation-name: fadeInDown;
+}
+
+.hero4-p {
+  font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+  margin: 0px;
+  font-family: Basis, arial;
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}

@@ -1,0 +1,48 @@
+.picbtn-cont {
+  height: 100vh;
+  padding: 100px 30px 0 30px;
+}
+
+.picbtn-img-cont {
+  position: relative;
+  height: 90vh;
+}
+
+.picbtn-text {
+  display: flex;
+  justify-content: space-around;
+}
+
+.picbtn-img {
+  position: relative;
+  height: 90vh;
+  width: 100%;
+  object-fit: cover;
+}
+
+.picbtn-text p {
+  color: #262523;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.button {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #262523;
+  color: #fff;
+  font-weight: bold;
+  pointer-events: none;
+  z-index: 10;
+  opacity: 0;
+  transition: opacity  0.8s ease-in-out;
+}
+
+.button.visible {
+  opacity: 1;
+}

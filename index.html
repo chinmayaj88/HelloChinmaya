@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      html {
+        overflow: hidden;
+      }
+
+      .btn {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        padding: 1rem;
+        font-size: 2rem;
+        color: #8ba3b9;
+        text-decoration: none;
+        background: white;
+        border: solid rgba(255, 255, 255, 0.25);
+        border-width: 1px 1px 0;
+        transform: translateX(-50%);
+        z-index: 99;
+      }
+
+      .overlay {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+      }
+
+      .overlay.show .bar {
+        transform: scale(1, 1) translate3d(0, 0, 0);
+        transform-origin: 0 0;
+      }
+
+      .overlay .bar {
+        position: absolute;
+        width: 10.1vw;
+        background: #8ba3b9;
+        top: 0;
+        bottom: 0;
+        transform: scale(0, 1) translate3d(0, 0, 0);
+        transform-origin: 100% 100%;
+        transition: transform 0.5s ease-in-out;
+        border-left: 1px solid rgba(255, 255, 255, 0.25);
+      }
+
+      .overlay .bar:first-of-type {
+        border-left: none;
+      }
+
+      .overlay .bar:nth-of-type(1) {
+        left: 0;
+        background: linear-gradient(
+          to right,
+          #8ba3b9 0%,
+          rgba(0, 0, 0, 0.05) 100%
+        );
+        transition-delay: 0.05s;
+      }
+
+      .overlay .bar:nth-of-type(2) {
+        left: 10vw;
+        background: linear-gradient(
+          to right,
+          rgba(0, 0, 0, 0.05) 0%,
+          rgba(0, 0, 0, 0.1) 100%
+        );
+        transition-delay: 0.1s;
+      }
+
+      .overlay .bar:nth-of-type(3) {
+        left: 20vw;
+        background: linear-gradient(
+          to right,
+          rgba(0, 0, 0, 0.1) 0%,
+          rgba(0, 0, 0, 0.15) 100%
+        );
+        transition-delay: 0.15s;
+      }
+
+      .overlay .bar:nth-of-type(4) {
+        left: 30vw;
+        background: linear-gradient(
+          to right,
+          rgba(0, 0, 0, 0.15) 0%,
+          rgba(0, 0, 0, 0.2) 100%
+        );
+        transition-delay: 0.2s;
+      }
+
+      .overlay .bar:nth-of-type(5) {
+        left: 40vw;
+        background: linear-gradient(
+          to right,
+          rgba(0, 0, 0, 0.2) 0%,
+          rgba(0, 0, 0, 0.25) 100%
+        );
+        transition-delay: 0.25s;
+      }
+
+      .overlay .bar:nth-of-type(6) {
+        left: 50vw;
+        background: linear-gradient(
+          to right,
+          rgba(0, 0, 0, 0.25) 0%,
+          rgba(0, 0, 0, 0.3) 100%
+        );
+        transition-delay: 0.3s;
+      }
+
+      .overlay .bar:nth-of-type(7) {
+        left: 60vw;
+        background: linear-gradient(
+          to right,
+          rgba(0, 0, 0, 0.3) 0%,
+          rgba(0, 0, 0, 0.35) 100%
+        );
+        transition-delay: 0.35s;
+      }
+
+      .overlay .bar:nth-of-type(8) {
+        left: 70vw;
+        background: linear-gradient(
+          to right,
+          rgba(0, 0, 0, 0.35) 0%,
+          rgba(0, 0, 0, 0.4) 100%
+        );
+        transition-delay: 0.4s;
+      }
+
+      .overlay .bar:nth-of-type(9) {
+        left: 80vw;
+        background: linear-gradient(
+          to right,
+          rgba(0, 0, 0, 0.4) 0%,
+          rgba(0, 0, 0, 0.45) 100%
+        );
+        transition-delay: 0.45s;
+      }
+
+      .overlay .bar:nth-of-type(10) {
+        left: 90vw;
+        background: linear-gradient(
+          to right,
+          rgba(0, 0, 0, 0.45) 0%,
+          rgba(0, 0, 0, 0.5) 100%
+        );
+        transition-delay: 0.5s;
+      }
+    </style>
+  </head>
+  <body>
+    <a href="#" class="btn">Transition</a>
+
+    <div class="overlay">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
+
+    <script>
+      var btn = document.querySelector(".btn");
+      var overlay = document.querySelector(".overlay");
+
+      btn.addEventListener("click", function (e) {
+        e.preventDefault();
+        overlay.classList.toggle("show");
+      });
+    </script>
+  </body>
+</html>
